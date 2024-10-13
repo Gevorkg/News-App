@@ -1,24 +1,24 @@
 import 'dart:convert';
 
 class PostDataUiModel {
-  final String articleId; // Строка, представляющая идентификатор статьи
-  final String title; // Заголовок статьи
-  final Uri link; // URI-ссылка на статью
-  final List<String> keywords; // Ключевые слова
-  final List<String> creators; // Создатели статьи
-  final String? description; // Описание статьи, может быть null
-  final String? content; // Содержимое статьи, может быть null
-  final DateTime pubDate; // Дата публикации
-  final Uri? imageUrl; // URI-ссылка на изображение, может быть null
-  final String sourceId; // Идентификатор источника
-  final String sourceName; // Название источника
-  final Uri sourceUrl; // URL источника
-  final Uri? sourceIcon; // URI-ссылка на иконку источника, может быть null
-  final String language; // Язык статьи
-  final List<String> country; // Страна
-  final List<String> category; // Категория статьи
-  final String sentiment; // Sentiment статьи
-  final Map<String, double> sentimentStats; // Статистика по sentiment
+  final String articleId; 
+  final String title;
+  final Uri link; 
+  final List<String> keywords; 
+  final List<String> creators; 
+  final String? description;
+  final String? content; 
+  final DateTime pubDate; 
+  final Uri? imageUrl; 
+  final String sourceId; 
+  final String sourceName;
+  final Uri sourceUrl;
+  final Uri? sourceIcon; 
+  final String language; 
+  final List<String> country; 
+  final List<String> category; 
+  final String sentiment; 
+  final Map<String, double> sentimentStats; 
   final bool duplicate;
 
   PostDataUiModel({
